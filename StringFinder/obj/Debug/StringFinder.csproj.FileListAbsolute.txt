@@ -1,0 +1,16 @@
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\bin\Debug\StringFinder.exe.config
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.csprojResolveAssemblyReference.cache
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\MainWindow.g.cs
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\App.g.cs
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder_MarkupCompile.cache
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder_MarkupCompile.lref
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\bin\Debug\StringFinder.exe
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\bin\Debug\StringFinder.pdb
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\MainWindow.baml
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.g.resources
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.Properties.Resources.resources
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.csproj.GenerateResource.Cache
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.exe
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\obj\Debug\StringFinder.pdb
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\bin\Debug\itextsharp.dll
+c:\users\track02\documents\visual studio 2015\Projects\StringFinder\StringFinder\bin\Debug\itextsharp.xml
