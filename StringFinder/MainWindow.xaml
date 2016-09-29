@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StringFinder"
         mc:Ignorable="d"
-        Title="StringFinder" Height="650" Width="525">
+        Title="StringFinder" Height="650" Width="540">
     <Grid>
-        <TextBox x:Name="TextBoxStringInput" HorizontalAlignment="Left" Height="22" Margin="129,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" FontSize="14"/>
+        <TextBox x:Name="TextBoxStringInput" HorizontalAlignment="Left" Height="22" Margin="129,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="126" FontSize="13.333"/>
         <Label x:Name="LabelStringInput" Content="Input Search String:" Height ="30" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="ListBoxWordDocs" HorizontalAlignment="Left" Height="100" Margin="10,142,0,0" VerticalAlignment="Top" Width="497">
             <ListBox.ContextMenu>
@@ -32,6 +32,7 @@
                 <ContextMenu>
                     <MenuItem Header="Add File" Click="AddPDFDoc" ></MenuItem>
                     <MenuItem Header="Remove File" Click="RemovePDFDoc"></MenuItem>
+                    <MenuItem Header="Open File" Click="MenuItem_Click"></MenuItem>
                 </ContextMenu>
             </ListBox.ContextMenu>
             <ListBox.ItemTemplate>
@@ -47,8 +48,8 @@
         </ListBox>
         <Label x:Name="LabelWordDocs" Content="Right Click - Add/Remove Word Docs to Search" HorizontalAlignment="Left" Margin="10,98,0,0" VerticalAlignment="Top" Width="280"/>
         <Label x:Name="LabelPDFDocs_Copy" Content="Right Click - Add/Remove PDF Docs to Search" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="280"/>
-        <Button x:Name="ButtonSearch" Content="Search" HorizontalAlignment="Left" Margin="215,558,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSearch_Click"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="381,558,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <Button x:Name="ButtonSearch" Content="Search" HorizontalAlignment="Left" Margin="10,558,0,0" VerticalAlignment="Top" Width="75" Click="ButtonSearch_Click"/>
+        <Button x:Name="ButtonClear" Content="Clear" HorizontalAlignment="Left" Margin="432,558,0,0" VerticalAlignment="Top" Width="75" Click="ButtonClear_Click"/>
 
 
     </Grid>

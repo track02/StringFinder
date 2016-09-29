@@ -18,6 +18,8 @@ namespace StringFinder
     public partial class MainWindow : Window
     {
 
+         
+
         private List<FileSearch> wordDocs = new List<FileSearch>();
         private List<FileSearch> pdfDocs = new List<FileSearch>();
         private string inputString;
@@ -130,6 +132,42 @@ namespace StringFinder
             
         }
 
+        private void ButtonClear_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (FileSearch file in wordDocs)
+            {
+                file.FileFound = "black";
+                file.FileFoundLocations.Clear();
+            }
+
+            foreach (FileSearch file in pdfDocs)
+            {
+                file.FileFound = "black";
+
+                try
+                {
+                    file.FileFoundLocations.Clear();
+                }
+                catch (Exception ex)
+                {
+
+                    Debug.WriteLine(ex);
+                }
+            }
+
+            ListBoxWordDocs.ItemsSource = wordDocs;
+            ListBoxWordDocs.Items.Refresh();
+            ListBoxPDFDocs.ItemsSource = pdfDocs;
+            ListBoxPDFDocs.Items.Refresh();
+        }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            Process acrobat = new Process();
+            acrobat.StartInfo.FileName = "acroRd32.exe";
+            acrobat.StartInfo.Arguments = "/A \"page=2=OpenActions\""+pdfDocs[ListBoxPDFDocs.SelectedIndex].FilePath;
+            acrobat.Start();
+        }
     }
 
     public class FileSearch
